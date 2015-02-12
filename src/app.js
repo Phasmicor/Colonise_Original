@@ -19,19 +19,28 @@ var MenuLayer = cc.Layer.extend({
 		this.addChild(spritebg);
 
 		//5.
-		cc.MenuItemFont.setFontSize(60);
+		//cc.MenuItemFont.setFontSize(60);
 
 		//6.create a menu and assign onPlay event callback to it
-		var menuItemPlay = new cc.MenuItemSprite(
-				new cc.Sprite(res.start_n_png), // normal state image
-				new cc.Sprite(res.start_s_png), // select state image
-				this.onPlay, this);
-		var menu = new cc.Menu(menuItemPlay);  //7. create the menu
-		menu.setPosition(centerpos);
-		this.addChild(menu);
+		//var menuItemPlay = new cc.MenuItemSprite(
+		//		new cc.Sprite(res.start_n_png), // normal state image
+		//		new cc.Sprite(res.start_s_png), // select state image
+		//		this.onPlay, this);
+		//var menu = new cc.Menu(menuItemPlay);  //7. create the menu
+		//menu.setPosition(centerpos);
+		//this.addChild(menu);
 	},
 
 	onPlay : function(){
 		cc.log("==onplay clicked");
+	}
+});
+
+var MenuScene = cc.Scene.extend({
+	onEnter:function () {
+		this._super();
+		var layer = new MenuLayer();
+		layer.init();
+		this.addChild(layer);
 	}
 });
