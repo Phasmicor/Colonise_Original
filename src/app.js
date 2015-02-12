@@ -44,3 +44,26 @@ var MenuScene = cc.Scene.extend({
 		this.addChild(layer);
 	}
 });
+
+var GameLayer = cc.Layer.extend({
+	ctor : function(){
+		//1. call super class's ctor function
+		this._super();
+	},
+	init:function(){
+		//call super class's super function
+		this._super();
+
+	},
+
+});
+
+var GameScene = cc.Scene.extend({//create the scene and start the game
+	onEnter:function () {
+		this._super();
+		var layer = new GameLayer();
+		this.addChild(layer);
+	}
+});
+
+
