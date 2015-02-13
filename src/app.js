@@ -19,7 +19,7 @@ var MenuLayer = cc.Layer.extend({
 		this.addChild(this.sprite, 0);
 		
 
-		return true;
+		//return true;
 	}
 });
 
@@ -37,7 +37,10 @@ var GameLayer = cc.Layer.extend({
 		//1. call super class's ctor function
 		this._super();
 
-
+		var size = cc.winSize;
+		
+		
+		
 	},
 
 });
