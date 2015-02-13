@@ -16,9 +16,18 @@ var MenuLayer = cc.Layer.extend({
 			x: size.width / 2,
 			y: size.height / 2
 		});
+					
 		this.addChild(this.sprite, 0);
-		
 
+		cc.eventManager.addListener({
+			event: cc.EventListener.KEYBOARD,
+			onKeyPressed: function(key){
+				cc.log(key)
+				if (key == 56){
+					cc.director.runScene(new GameScene())
+				}
+			}
+		}, this);
 		//return true;
 	}
 });
