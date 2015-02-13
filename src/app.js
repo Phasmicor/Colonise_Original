@@ -37,10 +37,9 @@ var GameLayer = cc.Layer.extend({
 		//1. call super class's ctor function
 		this._super();
 
-		var size = cc.winSize;
-		
-		
-		
+		this.addChild(new BackgroundLayer());		
+		this.addChild(new AnimationLayer());
+		this.addChild(new StatusLayer());
 	},
 
 });
