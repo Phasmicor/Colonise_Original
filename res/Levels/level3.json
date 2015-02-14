@@ -1,5 +1,5 @@
-{"Y": "361", "X": "61", "type": "def", "number": "0", "team": "0"}
-{"Y": "172", "X": "347", "type": "spray", "number": "1", "team": "0"}
-{"Y": "286", "X": "535", "type": "spray", "number": "2", "team": "1"}
-{"Y": "241", "X": "372", "type": "att", "number": "3", "team": "2"}
-{"Y": "52", "X": "475", "type": "att", "number": "4", "team": "3"}
+[{"Y": "361", "X": "61", "type": "def", "number": "0", "team": "0"},
+{"Y": "172", "X": "347", "type": "spray", "number": "1", "team": "0"},
+{"Y": "286", "X": "535", "type": "spray", "number": "2", "team": "1"},
+{"Y": "241", "X": "372", "type": "att", "number": "3", "team": "2"},
+{"Y": "52", "X": "475", "type": "att", "number": "4", "team": "3"}]

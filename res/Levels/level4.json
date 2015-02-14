@@ -1,7 +1,7 @@
-{"Y": "484", "X": "80", "type": "def", "number": "0", "team": "0"}
-{"Y": "305", "X": "122", "type": "att", "number": "1", "team": "0"}
-{"Y": "384", "X": "289", "type": "spray", "number": "2", "team": "1"}
-{"Y": "494", "X": "241", "type": "att", "number": "3", "team": "2"}
-{"Y": "67", "X": "544", "type": "spray", "number": "4", "team": "2"}
-{"Y": "505", "X": "356", "type": "spray", "number": "5", "team": "3"}
-{"Y": "168", "X": "189", "type": "att", "number": "6", "team": "3"}
+[{"Y": "484", "X": "80", "type": "def", "number": "0", "team": "0"},
+{"Y": "305", "X": "122", "type": "att", "number": "1", "team": "0"},
+{"Y": "384", "X": "289", "type": "spray", "number": "2", "team": "1"},
+{"Y": "494", "X": "241", "type": "att", "number": "3", "team": "2"},
+{"Y": "67", "X": "544", "type": "spray", "number": "4", "team": "2"},
+{"Y": "505", "X": "356", "type": "spray", "number": "5", "team": "3"},
+{"Y": "168", "X": "189", "type": "att", "number": "6", "team": "3"}]

@@ -1,4 +1,4 @@
-{"Y": "290", "X": "350", "type": "att", "number": "0", "team": "0"}
-{"Y": "209", "X": "390", "type": "spray", "number": "1", "team": "1"}
-{"Y": "169", "X": "103", "type": "att", "number": "2", "team": "2"}
-{"Y": "234", "X": "61", "type": "def", "number": "3", "team": "2"}
+[{"Y": "290", "X": "350", "type": "att", "number": "0", "team": "0"},
+{"Y": "209", "X": "390", "type": "spray", "number": "1", "team": "1"},
+{"Y": "169", "X": "103", "type": "att", "number": "2", "team": "2"},
+{"Y": "234", "X": "61", "type": "def", "number": "3", "team": "2"}]

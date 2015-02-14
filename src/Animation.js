@@ -9,7 +9,9 @@ var AnimationLayer = cc.Layer.extend({
 		
 		
 
-		
+		cc.loader.loadJson(res.L1, function(error, data){
+			cc.log(data); //data is the json object
+		});		
 
 	},
 
